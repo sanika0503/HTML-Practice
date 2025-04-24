@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- Image -->
+     <!-- Basic image -->
+     <img src="https://media.istockphoto.com/id/1403500817/photo/the-craggies-in-the-blue-ridge-mountains.jpg?s=612x612&w=0&k=20&c=N-pGA8OClRVDzRfj_9AqANnOaDS3devZWwrQNwZuDSk=" alt="beautiful nature" width="400" height="300">
+
+     <hr>
+    <!-- Responsive image -->
+     <img src="https://media.istockphoto.com/id/1403500817/photo/the-craggies-in-the-blue-ridge-mountains.jpg?s=612x612&w=0&k=20&c=N-pGA8OClRVDzRfj_9AqANnOaDS3devZWwrQNwZuDSk="alt="Scenic view" style="max-width:100%; height:auto;">"
+
+     <!-- Audio -->
+      <!-- Basic audio -->
+      <audio controls>
+        <source src="song.mp3" type="audio/mpeg">
+      </audio>
+
+      <!-- Responsive audio -->
+       <audio controls autoplay loop>
+        <source src="background-music.mp3" type="audio/mpeg">
+       </audio>
+
+       <!--Video  -->
+       <!-- Basic video -->
+        <video controls width="500">
+            <source src="video.mp4" type="video/mp4">
+        </video>
+
+        <!--Autoplay,loop,muted video-->
+        <video controls loop muted>
+            <source src="background-video.mp4" type="video/mp4">
+        </video>
+
+        <!--Source-->
+        <h3>using source</h3>
+        <video controls>
+            <source src="video.mp4" type="video/mp4">
+            <source src="video.ogg" type="video/ogg">
+            <source src="video.webm" type="video/webm">
+        </video>
+
+       <!--Track-->
+       <h3>Using Track</h3>
+       <video controls>
+        <source src="movie.mp4" type="video/mp4">
+        <track src="subtitles-en.vtt" kind="subtitles" srclang="en" label="English">
+       </video>
+
+       <!-- iframe -->
+        <iframe width="500" height="300" src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+</body>
+</html>

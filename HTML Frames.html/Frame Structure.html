@@ -1,0 +1,37 @@
+<!-- HTML frames are a way to divide a web page into multiple sections,each containing a separete HTML doument. -->
+
+
+<!-- FRAME STRUCTURE -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <frameset cols="30% , 70%">
+        <frame src="menu.html">
+        <frame src="content.html">
+    </frameset>
+    <noframe>
+        <p>Your browser does not support frames.</p>
+    </noframe>
+
+
+    <!--ATTRIBUTE OF <FRAMESET>  -->
+        <frameset rows="50%, 50%">
+            <frame src="top.html">
+            <frame src="bottom.html">
+        </frameset>
+
+        
+    <!--  Attributes of <frame> -->
+        <frameset cols="50%, 50%">
+            <frame src="left.html" name="leftFrame" scrolling="no" noresize>
+            <frame src="right.html" name="rightFrame">
+        </frameset>
+        
+
+</body>
+</html>

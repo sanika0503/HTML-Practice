@@ -1,0 +1,77 @@
+- HTML elements are builing blocks of an HTML document.
+- They are used to define the structure and content of a web page.
+- These elements are the foundation of html used to create headings,paragraphs,links,images,lists and other basic content.
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- 1.HEADINGS (h1-h6)-Used to define the title or heading of a section or page. -->
+    <h1>This is Heading 1</h1> 
+    <h2>This is Heading 2</h2> 
+    <h3>This is Heading 3</h3> 
+    <h4>This is Heading 4</h4> 
+    <h5>This is Heading 5</h5> 
+    <h6>This is Heading 6</h6> 
+   <!-- 🔹 Usage: Headings improve readability and SEO (Search Engine Optimization). <h1> is typically used for the main title.-->
+
+    <!--2.PARAGRAPHS (P) - Used to define block of text-->
+     <p>This is a paragraph of text. It contains some information about the topic</p>
+     <!-- 🔹 Usage: Paragraphs help organize content into readable sections. -->
+
+     <!--3.LINKS(a) - Links allow users to navigate to other web pages or resources.-->
+      <a href="http://google.com">Visit Google</a>
+
+    <!-- 4.IMAGE (IMG) - The img tag is used to display images.-->
+      <img src="image.jpg" alt="Sample image" width="100" height="100">
+     <!-- 🔹 Attributes: 
+      src: Image URL or file path.
+      alt: Alternative text (useful for accessibility and SEO).
+      width & height: Define the image size.-->
+
+    <!-- 5.LISTS -(<ul>,<ol>,<li>)- Lists help organize information into bullet points or numbered items.-->
+        <ul>
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Mango</li>
+        </ul>
+        <ol>
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Mango</li>
+        </ol>
+        <ul>
+            <li>fruits
+                <ul>
+                    <li>Mango</li>
+                    <li>Apple</li>
+                </ul>
+            </li>
+                <li>Vegetables
+                    <ul> 
+                        <li>Carrot</li>
+                        <li>Potato</li>
+                    </ul>
+                </li>
+        </ul>
+
+    <!-- 6.DIVISION(div) -The <div> tag is used to create sections or divisions in a webpage.-->
+        <div class="container">
+            <h1>Welcome</h1>
+            <p>This is a paragraph of text</p>
+        </div>
+      <!--🔹 Usage: <div> is a block-level container used for styling or grouping elements.-->
+
+    <!-- 7.SPAN(span) - The <span> tag is used to style inline elements.-->
+        <p>This is a <span style="color:chartreuse;"> red</span>word in a sentence.</p>
+     <!-- 🔹 Usage: <span> is useful when you want to apply CSS to a specific part of text without breaking the line.-->
+
+</body>
+</html>
